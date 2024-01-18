@@ -6,7 +6,7 @@ Visual Studio 빌드 전 이벤트에 추가하기
 (C#)
 ```
 @echo off
-echo namespace adminTool> $(ProjectDir)Version.cs
+echo namespace $(ProjectName)> $(ProjectDir)Version.cs
 echo {>> $(ProjectDir)Version.cs
 echo    public class Version>> $(ProjectDir)Version.cs
 echo    {>> $(ProjectDir)Version.cs
