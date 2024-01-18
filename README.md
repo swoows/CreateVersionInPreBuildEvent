@@ -1,7 +1,3 @@
-# CreateVersionInPreBuildEvent
-빌드 전 이벤트에 버젼 파일 만들기
-
-
 Visual Studio 빌드 전 이벤트에 추가하기 
 (C#)
 ```
