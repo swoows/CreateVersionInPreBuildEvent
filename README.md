@@ -1,6 +1,10 @@
 # CreateVersionInPreBuildEvent
 빌드 전 이벤트에 버젼 파일 만들기
 
+
+Visual Studio 빌드 전 이벤트에 추가하기 
+(C#)
+```
 @echo off
 echo namespace adminTool> $(ProjectDir)Version.cs
 echo {>> $(ProjectDir)Version.cs
@@ -10,3 +14,4 @@ echo        static readonly public string Ver = "Build Time : %date% %time%";>> 
 echo    }>> $(ProjectDir)Version.cs
 echo }>> $(ProjectDir)Version.cs
 @echo on
+```
